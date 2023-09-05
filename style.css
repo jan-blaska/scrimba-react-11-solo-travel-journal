@@ -1,0 +1,26 @@
+/* -- RESET -- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* -- LAYOUT -- */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #23252C;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    width: 317px;
+    margin: 50px auto;
+    background-color: #1A1B21;
+    border-radius: 20px;
+}
