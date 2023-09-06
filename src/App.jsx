@@ -1,8 +1,14 @@
+import Header from "./components/Header"
+import Section from "./components/Section"
+
 function App() {
 
 	return (
 		<>
-			<h1>Hello World</h1>
+			<div className="container">
+				<Header />
+				<Section />
+			</div>
 		</>
 	)
 }

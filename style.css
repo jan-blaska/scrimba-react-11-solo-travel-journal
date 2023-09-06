@@ -11,16 +11,91 @@ img {
 /* -- LAYOUT -- */
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #23252C;
-    color: #fff;
+    background-color: #E5E5E5;
     margin: 0;
     padding: 0;
-    height: 100vh;
 }
 
 .container {
-    width: 317px;
+    width: 550px;
     margin: 50px auto;
-    background-color: #1A1B21;
-    border-radius: 20px;
+    background-color: #fff;
+}
+
+/* -- HEADER -- */
+header {
+    background-color: #F55A5A;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 55px;
+}
+
+.header--logo {
+    font-size: 25px;
+}
+
+.header--text {
+    font-size: 0.9rem; /* 14.5px */
+}
+
+/* -- SECTION -- */
+section {
+    color: #2B283A;
+    padding: 20px 40px;
+}
+
+section > * {
+    padding-block: 20px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+section > :last-child {
+    border: none;
+}
+
+/* -- CARD -- */
+.card,
+.card--text-location {
+    display: flex;
+    align-items: center;
+}
+
+.card--img {
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+    object-position: 65% 50%;
+}
+
+.card--text {
+    font-size: 0.64rem; /* 10.24px */
+    margin-left: 20px;
+}
+
+.card--text > p {
+    margin: 0px;
+}
+
+.card--text-title {
+    font-size: 1.56rem; /* 25px */ 
+    margin: 5px 0 15px;
+}
+
+.card--text-location-name {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin: 0 0 0 5px;
+}
+
+.card--text-location-link {
+    color: #918E9B;
+    margin-left: 10px;
+}
+
+.card--text-date {
+    font-weight: bold;
+    padding-bottom: 5px;
 }

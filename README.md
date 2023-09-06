@@ -10,4 +10,4 @@ Second React app on Scrimba to practice following:
 ---
 
 ### Try the app with the following link:
-[deployed site](https://jan-blaska-scrimba-react-traveljourn.netlify.app/)
+[deployed site](https://jan-blaska-scrmb-react-travel-journal.netlify.app/)
